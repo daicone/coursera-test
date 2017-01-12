@@ -1,0 +1,130 @@
+body {
+	font-size: 16px;
+	color: black;
+	font-family: 'Alegreya', serif;
+}
+
+/** HEADER STARTS HERE **/
+#header-nav {
+	background-color: gray;
+	border-radius: 0;
+	border-width: 3px 0px;
+	border-color: black;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+a {
+	text-align: center;
+	font-size: 1.25em;
+	color: #0000FF;
+}
+
+a.list-group-item, button.list-group-item {
+    color: black;
+}
+
+.list-group-item {
+    border-top: 0px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.list-group-item:last-child {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.navbar-default .navbar-brand {
+	margin: 10px;
+	font-size: 16px;
+	color: black;
+	font-family: 'Alegreya', serif;
+	font-size: 1.75em;
+	font-weight: bold;
+}
+/**BUTTON STYLE START**/
+.navbar-toggle {
+	margin: 18px;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: black;
+	border-width: 2px;
+}
+
+.navbar-toggle .icon-bar {
+	height: 4px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+.navbar-default .navbar-toggle:focus .icon-bar, .navbar-default .navbar-toggle:hover .icon-bar {
+    background-color: silver;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: gray;
+    border-color: silver;
+}
+/**BUTTON STYLE END**/
+/** HEADER ENDS HERE **/
+.text-center {
+	text-align: center;
+	font-size: 1.75em;
+	color: black;
+	font-weight: bold;
+	font-family: 'Alegreya', serif;
+}
+
+.h1, h1 {
+	text-align: center;
+	font-size: 1.75em;
+	color: black;
+	font-weight: bold;
+	font-family: 'Alegreya', serif;
+}
+
+@media (min-width: 768px) {
+	#bs-example-navbar-collapse-1 {display:none;
+	}
+}
+
+p {
+	margin: 0px;
+}
+
+h4 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.25em;
+	margin: 0px;
+	padding-bottom: 5px;
+}
+
+.chicken, .beef, .sushi {
+	margin: 15px;
+	background-color: gray;
+	padding: 5px 15px 15px 15px;
+}
+
+.col-md-4, .col-sm-6, .col-sm-12, .col-xs-12 {
+	padding: 0px;
+} 
+
+.row {
+	margin: 15px;
+}
+
+span {
+	font-size: 14px;
+}
